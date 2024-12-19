@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html>
+    <head> 
+        <title> eval </title>
+    </head>
+    <body>
+        <h1> before clicking this unusal button, guess what number comes and spawns randomly below this button. If you get it right, i'll give you £3. If not, you owe  me £3 </h1>
+        <button onclick="Georgina()"> if you have your guess, click me.</button>
+        <p id="eva1"> </p>
+        <script> 
+            function Georgina(){
+                var x=10;
+                var y=20;
+                var a=eval("x+y");
+                var b=eval("x*y");
+                var c=a+b;
+                document.getElementById("eva1").innerHTML=c;
+            }
+        </script>
+    </body>
+</html>
